@@ -1,0 +1,12 @@
+{
+    "discordBranch": "canary",
+    "minimizeToTray": true,
+    "arRPC": true,
+    "autoStartMinimized": true,
+    "customTitleBar": true,
+    "splashProgress": true,
+    "clickTrayToShowHide": true,
+    "disableMinSize": true,
+    "disableSmoothScroll": false,
+    "badgeOnlyForMentions": true
+}

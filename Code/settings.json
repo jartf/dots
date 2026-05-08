@@ -1,0 +1,187 @@
+// Jarema's VSCode settings
+// Last updated: 8 May 2026
+{
+  /** Appearance **/
+    "editor.fontSize": 15,
+    "editor.lineHeight": 20,
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.15,
+    "workbench.colorTheme": "2077",
+    "terminal.integrated.fontFamily": "MonaspiceNe Nerd Font Mono",
+    "editor.fontFamily": "'MonaspiceNe Nerd Font Mono', 'monospace', monospace",
+    "window.newWindowDimensions": "inherit",
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "multiple",
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "workbench.tips.enabled": false,
+    "git.decorations.enabled": false,
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.lightbulb.enabled": "onCode",
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.hideCursorInOverviewRuler": true,
+    "vscode-pets.petSize": "small",
+    "vscode-pets.theme": "autumn",
+    "vscode-pets.throwBallWithMouse": true,
+    "window.newWindowProfile": "Default",
+    "workbench.panel.showLabels": false,
+    "terminal.integrated.initialHint": false,
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+
+  /** Editor & files **/
+    "explorer.confirmDelete": false,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "editor.detectIndentation": false,
+    "files.autoSave": "onWindowChange",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "explorer.confirmPasteNative": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.emptySelectionClipboard": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.wordWrap": "on",
+    "editor.suggestSelection": "first",
+    "editor.largeFileOptimizations": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.matchBrackets": "near",
+    "editor.colorDecorators": false,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.associations": {
+      ".php_cs": "php",
+      ".php_cs.dist": "php"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.experimental.share.enabled": true,
+
+  /** Misc **/
+    "editor.snippetSuggestions": "top",
+    // Discord rich presence
+    "discord.lowerDetailsNoWorkspaceFound": "On line {current_line} of {total_lines}",
+    "discord.removeRemoteRepository": true,
+    "discord.lowerDetailsEditing": "Workspace: {workspace}:{git_branch}",
+    "discord.lowerDetailsDebugging": "Debugging: {workspace}:{git_branch}",
+    // Firefox
+    "firefox.executable": "/var/lib/flatpak/exports/bin/org.mozilla.firefox",
+    // Edge DevTools
+    "vscode-edge-devtools.webhintInstallNotification": true,
+
+  /** Telemetry **/
+    "update.mode": "manual",
+    "telemetry.telemetryLevel": "off",
+    "code-runner.enableAppInsights": false,
+    "extensions.ignoreRecommendations": true,
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "update.showReleaseNotes": false,
+
+  /** Search **/
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+      "**/vendor/{[^l],?[^ai]}*": true,
+      "**/public/{[^i],?[^n]}*": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.vercel": true,
+      "**/.netlify": true,
+      "**/_ide_helper.php": true,
+      "**/composer.lock": true,
+      "**/package-lock.json": true,
+      "storage": true,
+      ".phpunit.result.cache": true
+    },
+
+  /** Git **/
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
+    "git.ignoreRebaseWarning": true,
+
+  /** Languages **/
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?", // counts "-" as part of a word
+    "emmet.includeLanguages": {
+      "blade": "html",
+      "vue-html": "html",
+      "vue": "html"
+    },
+    "php.suggest.basic": false,
+    "[php]": {
+      "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.autoFixByBracket": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+      "source.fixAll.tslint": "always"
+    },
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "eslint.options": {
+      "rules": {
+        "import/default": "error",
+        "import/export": "error",
+        "import/named": "error",
+        "import/namespace": "error",
+        "import/no-duplicates": "error",
+        "import/no-named-as-default": "error",
+        "import/no-named-as-default-member": "error",
+        "import/no-unresolved": "error"
+      }
+    },
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.unicodeHighlight.allowedLocales": {
+      "tr": true
+    },
+
+  /** Vim **/
+    "vim.startInInsertMode": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "block",
+
+  /** Terminal **/
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "host-spawn",
+        "args": [
+          "bash"
+        ]
+      }
+    }
+}

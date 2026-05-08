@@ -1,0 +1,135 @@
+{
+	"options": {
+		"tray": true,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": false,
+		"hideMenuWarned": false,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": true,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": true,
+		"autoResetAppCache": false,
+		"resumeOnStart": true,
+		"likeButtons": "force",
+		"proxy": "",
+		"startingPage": "",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": [],
+		"language": "en"
+	},
+	"plugins": {
+		"notifications": {
+			"enabled": false
+		},
+		"video-toggle": {
+			"mode": "custom"
+		},
+		"precise-volume": {
+			"enabled": true,
+			"steps": "5",
+			"arrowsShortcut": true,
+			"globalShortcuts": {
+				"volumeUp": "",
+				"volumeDown": ""
+			},
+			"savedVolume": 50
+		},
+		"discord": {
+			"enabled": false,
+			"autoReconnect": true,
+			"activityTimeoutEnabled": true,
+			"activityTimeoutTime": 600000,
+			"playOnYouTubeMusic": true,
+			"hideGitHubButton": true,
+			"hideDurationLeft": false,
+			"statusDisplayType": 2,
+			"listenAlong": true
+		},
+		"album-color-theme": {
+			"enabled": true
+		},
+		"album-actions": {
+			"enabled": true
+		},
+		"ambient-mode": {
+			"enabled": true
+		},
+		"amuse": {
+			"enabled": true
+		},
+		"audio-compressor": {
+			"enabled": false
+		},
+		"bypass-age-restrictions": {
+			"enabled": true
+		},
+		"captions-selector": {
+			"enabled": true,
+			"disableCaptions": false,
+			"autoload": true,
+			"lastCaptionsCode": ""
+		},
+		"crossfade": {
+			"enabled": true
+		},
+		"compact-sidebar": {
+			"enabled": true
+		},
+		"equalizer": {
+			"enabled": true
+		},
+		"blur-nav-bar": {
+			"enabled": true
+		},
+		"in-app-menu": {
+			"enabled": true
+		},
+		"picture-in-picture": {
+			"enabled": true,
+			"alwaysOnTop": true,
+			"savePosition": true,
+			"saveSize": false,
+			"hotkey": "P",
+			"isInPiP": false,
+			"useNativePiP": true
+		},
+		"skip-disliked-songs": {
+			"enabled": true
+		},
+		"skip-silences": {
+			"enabled": true
+		},
+		"sponsorblock": {
+			"enabled": true
+		},
+		"synced-lyrics": {
+			"enabled": true,
+			"preciseTiming": true,
+			"showLyricsEvenIfInexact": true,
+			"showTimeCodes": false,
+			"defaultTextString": "♪",
+			"lineEffect": "fancy",
+			"romanization": true,
+			"preferredProvider": "MusixMatch"
+		},
+		"unobtrusive-player": {
+			"enabled": true
+		},
+		"tuna-obs": {
+			"enabled": true
+		},
+		"quality-changer": {
+			"enabled": true
+		},
+		"playback-speed": {
+			"enabled": true
+		},
+		"music-together": {
+			"enabled": true
+		}
+	}
+}

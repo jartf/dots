@@ -1,0 +1,11 @@
+{
+  "log_level": "dev",
+  "show_hidden_events": true,
+  "auto_update_disabled": false,
+  "external_platforms": [],
+  "launch_app_minimized": true,
+  "keybindings": {
+    "CLEAR_FILTERS": "disabled",
+    "TOGGLE_FILTER_GROUPS": "disabled"
+  }
+}
