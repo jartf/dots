@@ -1,0 +1,17 @@
+{
+	"settings": {
+		"allocatedMemory": 4096,
+		"language": "en_US",
+		"afterLaunchAction": "HIDE",
+		"advancedMode": true,
+		"gameBranch": "master",
+		"discordRichPresence": {
+			"enabled": true,
+			"hideWhenIdle": true
+		},
+		"computerStartup": "DOCKED"
+	},
+	"trackingIds": {
+		"ga4": ""
+	}
+}

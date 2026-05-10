@@ -1,0 +1,19 @@
+{
+  "excludedHosts": [],
+  "globalProxy": {
+    "host": "10.124.0.139",
+    "port": 1080,
+    "proxyDNS": true,
+    "type": "socks"
+  },
+  "globalProxyDetails": {
+    "socksEnabled": true,
+    "server": "ee-tll-wg-002",
+    "country": "Estonia",
+    "countryCode": "ee",
+    "city": "Tallinn",
+    "proxyDNS": true
+  },
+  "hostProxies": {},
+  "hostProxiesDetails": {}
+}

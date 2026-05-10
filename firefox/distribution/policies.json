@@ -1,0 +1,21 @@
+{
+  "policies": {
+    "DisablePocket": true,
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "CaptivePortal": false,
+    "NetworkPrediction": false,
+    "ExtensionSettings": {
+      "CanvasBlocker@kkapsner.de": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/canvasblocker/latest.xpi",
+        "installation_mode": "normal_installed"
+      },
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "normal_installed"
+      }
+    },
+    "DisplayMenuBar": true,
+    "NewTabPage": false
+  }
+}
