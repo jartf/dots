@@ -1,0 +1,9 @@
+[info/febvre/Komikku]
+downloader-state=true
+night-light=false
+system-accent-colors=true
+card-backdrop-method='linear-gradient'
+desktop-notifications=true
+tracking=true
+window-maximized-state=false
+window-size=[800, 600]

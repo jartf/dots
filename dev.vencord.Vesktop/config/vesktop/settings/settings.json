@@ -1,0 +1,58 @@
+{
+    "autoUpdate": true,
+    "autoUpdateNotification": true,
+    "useQuickCss": true,
+    "themeLinks": [
+        "@light https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css",
+        "@dark https://raw.githubusercontent.com/refact0r/midnight-discord/refs/heads/master/themes/flavors/midnight-catppuccin-mocha.theme.css"
+    ],
+    "eagerPatches": false,
+    "enabledThemes": [
+        "Material-Discord.theme.css"
+    ],
+    "enableReactDevtools": true,
+    "frameless": true,
+    "transparent": false,
+    "winCtrlQ": true,
+    "disableMinSize": true,
+    "winNativeTitleBar": false,
+    "uiElements": {
+        "chatBarButtons": {
+            "SilentMessageToggle": {
+                "enabled": false
+            },
+            "SilentTyping": {
+                "enabled": false
+            },
+            "Translate": {
+                "enabled": false
+            },
+            "PreviewMessage": {
+                "enabled": true
+            },
+            "SendTimestamps": {
+                "enabled": true
+            }
+        },
+        "messagePopoverButtons": {}
+    },
+    "notifications": {
+        "timeout": 5000,
+        "position": "bottom-right",
+        "useNative": "always",
+        "missed": true,
+        "logLimit": 50
+    },
+    "cloud": {
+        "authenticated": true,
+        "url": "https://api.vencord.dev/",
+        "settingsSync": true
+    },
+    "enabledThemeLinks": [],
+    "enableOnlineThemes": true,
+    "pinnedThemes": [],
+    "themeNames": {},
+    "mainWindowFrameless": false,
+    "ignoreResetWarning": false,
+    "userCssVars": {}
+}

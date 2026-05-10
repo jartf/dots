@@ -1,0 +1,5 @@
+{
+  "backend": "local_rss",
+  "concurrent_downloads": 24,
+  "sync_amount": 300
+}

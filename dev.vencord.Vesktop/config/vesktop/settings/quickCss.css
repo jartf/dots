@@ -1,0 +1,37 @@
+/* Hide unused stuff */
+[class^="buttons"] .buttonContainer_e6e74f.app-launcher-entrypoint, /* App launcher button */
+[class^="channelAppLauncher"], /* Apps in VCs */
+[class*="upsell"], /* Nitro upsell box */
+[href="/activities"], /* Activities */
+[href="/library"], /* Big library button */
+[href="/store"], /* Big store button */
+[href="/shop"], /* Big shop button */
+[href="/quest-home"], /* Big quest/mission button */
+.tutorialContainer__650eb+div, /* Discovery button in server list */
+div[class^="containerDefault_"]:has(div[data-list-item-id^="channels___upcoming-events"]) /* Events in server */
+{
+	display: none !important;
+}
+
+/* Adjustments */
+.chat_f75fb0[data-has-border=true],
+.container_c8ffbb {
+	border: none !important;
+}
+.wrapper_cc5dd2 > svg{
+	filter: saturate(0);
+}
+.channelTextArea-1FufC0 > .container-1ZA19X {
+    display: none;
+}
+[class^="scrollableContainer__"] {
+    position: relative;
+}
+
+/* No card background in member list */
+[class^=member] img[class^=img] {
+    display: none;
+}
+[class^=member] [class^=container] {
+    background: none !important;
+}

@@ -1,0 +1,10 @@
+{
+    "discordBranch": "canary",
+    "minimizeToTray": true,
+    "arRPC": true,
+    "splashColor": "rgb(220, 220, 223)",
+    "splashBackground": "rgb(0, 0, 0)",
+    "customTitleBar": true,
+    "clickTrayToShowHide": true,
+    "disableMinSize": true
+}

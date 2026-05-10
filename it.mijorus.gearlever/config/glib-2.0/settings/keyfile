@@ -1,0 +1,5 @@
+[it/mijorus/gearlever]
+fetch-updates-in-background=true
+exec-as-name-for-terminal-apps=true
+appimages-default-folder='/home/ernesti/AppImages'
+is-maximized=false
