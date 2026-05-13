@@ -51,7 +51,7 @@ I haven't made an installation script yet, but you can symlink or copy these fil
     *   SchildiChat Revenge: `~/.config/SchildiChatRevenge/`.
     *   Beeper: `~/.config/BeeperTexts/`.
     *   YouTube Music: `~/.config/YouTube Music/`.
-*   **Flatpaks**: For most Flatpak apps (Vesktop, Komikku, NewsFlash, Mission Center, Gear Lever, Sober, etc.), settings go into their respective app data folders: `~/.var/app/<app-id>/`.
+*   **Flatpaks**: For most Flatpak apps (Tauon, Vesktop, Komikku, NewsFlash, Mission Center, Gear Lever, Sober, etc.), settings go into their respective app data folders: `~/.var/app/<app-id>/`.
 
 ## License
 This repository is licensed under GPLv3, see [LICENSE](./LICENSE).
