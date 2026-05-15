@@ -50,7 +50,8 @@
 			"listenAlong": true
 		},
 		"album-color-theme": {
-			"enabled": true
+			"enabled": true,
+			"ratio": 0.8
 		},
 		"album-actions": {
 			"enabled": true
